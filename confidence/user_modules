@@ -1,0 +1,24 @@
+[module/apps]
+type = custom/text
+content-padding = 1
+
+[module/browser]
+inherit = module/apps
+content = 
+;content-foreground = ${colors.foreground}
+click-left = firefox &
+;click-right = 
+
+[module/filesystem]
+inherit = module/apps
+content = 
+;content-foreground = ${colors.foreground}
+click-left = thunar &
+;click-right = 
+
+[module/terminal]
+inherit = module/apps
+content = 
+;content-foreground = ${colors.foreground}
+click-left = xfce4-terminal &
+;click-right = 
